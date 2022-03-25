@@ -6,13 +6,12 @@
 #include "assignment/linked_queue.hpp"   // LinkedQueue
 
 using std::cout;
+using namespace assignment;
 
 int main(int argc, char **argv) {
 
   // Пример. Создание пустого динамического массива.
-  assignment::DynamicArray array;
-
-  cout << "Write your code here...\n";
+  auto * array = new DynamicArray(5);
 
   return 0;
 }
